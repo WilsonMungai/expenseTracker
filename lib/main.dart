@@ -7,14 +7,17 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Expense Tracker',
-        theme: ThemeData(brightness: Brightness.dark),
+        theme: ThemeData(
+            primarySwatch: Colors.blue,
+            brightness: Brightness.dark,
+            accentColor: Colors.blue
+            // colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)
+            ),
         home: const TabsController());
   }
 }
