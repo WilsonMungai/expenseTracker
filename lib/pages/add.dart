@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import '../types/widgets.dart';
 
-class Add extends StatelessWidget {
-  const Add({super.key});
+class Add extends WidgetWithTitle {
+  const Add({super.key}) : super(title: "Add");
 
   @override
   Widget build(BuildContext context) {

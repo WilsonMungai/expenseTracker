@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            primarySwatch: Colors.blue,
-            brightness: Brightness.dark,
-            accentColor: Colors.blue
-            // colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)
-            ),
+          // primarySwatch: Colors.black,
+          brightness: Brightness.dark,
+          // accentColor: Colors.blue
+          // colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue)
+        ),
         home: const TabsController());
   }
 }

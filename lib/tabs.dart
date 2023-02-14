@@ -55,10 +55,10 @@ class _TabsControllerState extends State<TabsController> {
         onTap: _onItemSelected,
         type: BottomNavigationBarType.fixed,
         // fixedColor: Colors.white,
-        // selectedItemColor: Colors.amber,
+        selectedItemColor: Colors.blue,
         selectedFontSize: 15,
-        // unselectedItemColor: Colors.white,
-        // backgroundColor: Colors.blueGrey,
+        unselectedItemColor: Colors.white,
+        backgroundColor: Colors.black,
         elevation: 0,
       ),
     );
